@@ -10,6 +10,7 @@
     "prepublishOnly": "npm run build:lib"
   },
   "devDependencies": {
+    "sass": "1.55.0",
     "typescript": "4.6.4",
     "unbuild": "0.9.4",
     "unocss": "0.45.30",
@@ -17,7 +18,7 @@
     "vue": "3.2.41"
   },
   "dependencies": {
-    "@zhu-hong/usedate": "2.0.1",
+    "@zhu-hong/usedate": "2.0.3",
     "vue-demi": "0.13.11"
   },
   "peerDependencies": {

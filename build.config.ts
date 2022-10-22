@@ -7,7 +7,7 @@ export default defineBuildConfig({
   declaration: true,
   clean: true,
   externals: ['@zhu-hong/usedate'],
-  // rollup: {
-  //   emitCJS: true,
-  // },
+  rollup: {
+    emitCJS: true,
+  },
 })
